@@ -6,15 +6,22 @@
 <title>图图放烟花</title> 
 <style>
 /* basic styles for black background and crosshair cursor */
+*{
+				padding: 0;
+				margin: 0;
+			}
 body {
 	background: #000;
+	display: flex;/*自适应窗口*/
+	flex-wrap: wrap;
+	width: 100%;
 	margin: 0 auto;
 }
 
 canvas {
 	cursor: crosshair;
 	display: block;
-	margin: 0 auto;
+	
 }
 </style>
 </head>
